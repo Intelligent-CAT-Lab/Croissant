@@ -1,0 +1,2687 @@
+showing all exceptions
+['/Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv']
+tests found: 
+org.apache.commons.csv.issues.JiraCsv149Test.class
+org.apache.commons.csv.issues.JiraCsv249Test.class
+org.apache.commons.csv.issues.JiraCsv265Test.class
+org.apache.commons.csv.perf.PerformanceTest.class
+org.apache.commons.csv.TokenMatchersTest.class
+org.apache.commons.csv.CSVParserTest.class
+org.apache.commons.csv.PerformanceTest.class
+org.apache.commons.csv.issues.JiraCsv154Test.class
+org.apache.commons.csv.ExtendedBufferedReaderTest.class
+org.apache.commons.csv.issues.JiraCsv248Test.class
+org.apache.commons.csv.issues.JiraCsv271Test.class
+org.apache.commons.csv.issues.JiraCsv203Test.class
+org.apache.commons.csv.CSVFileParserTest.class
+org.apache.commons.csv.issues.JiraCsv264Test.class
+org.apache.commons.csv.issues.JiraCsv213Test.class
+org.apache.commons.csv.LexerTest.class
+org.apache.commons.csv.issues.JiraCsv93Test.class
+org.apache.commons.csv.issues.JiraCsv263Test.class
+org.apache.commons.csv.issues.JiraCsv148Test.class
+org.apache.commons.csv.issues.JiraCsv167Test.class
+org.apache.commons.csv.issues.JiraCsv206Test.class
+org.apache.commons.csv.CSVRecordTest.class
+org.apache.commons.csv.CSVFormatPredefinedTest.class
+org.apache.commons.csv.issues.JiraCsv211Test.class
+org.apache.commons.csv.issues.JiraCsv288Test.class
+org.apache.commons.csv.CSVPrinterTest.class
+org.apache.commons.csv.issues.JiraCsv198Test.class
+org.apache.commons.csv.issues.JiraCsv247Test.class
+org.apache.commons.csv.CSVFormatTest.class
+org.apache.commons.csv.issues.JiraCsv253Test.class
+tests found: 
+org.apache.commons.csv.issues.JiraCsv149Test.class
+org.apache.commons.csv.issues.JiraCsv249Test.class
+org.apache.commons.csv.issues.JiraCsv265Test.class
+org.apache.commons.csv.perf.PerformanceTest.class
+org.apache.commons.csv.TokenMatchersTest.class
+org.apache.commons.csv.CSVParserTest.class
+org.apache.commons.csv.PerformanceTest.class
+org.apache.commons.csv.issues.JiraCsv154Test.class
+org.apache.commons.csv.ExtendedBufferedReaderTest.class
+org.apache.commons.csv.issues.JiraCsv248Test.class
+org.apache.commons.csv.issues.JiraCsv271Test.class
+org.apache.commons.csv.issues.JiraCsv203Test.class
+org.apache.commons.csv.CSVFileParserTest.class
+org.apache.commons.csv.issues.JiraCsv264Test.class
+org.apache.commons.csv.issues.JiraCsv213Test.class
+org.apache.commons.csv.LexerTest.class
+org.apache.commons.csv.issues.JiraCsv93Test.class
+org.apache.commons.csv.issues.JiraCsv263Test.class
+org.apache.commons.csv.issues.JiraCsv148Test.class
+org.apache.commons.csv.issues.JiraCsv167Test.class
+org.apache.commons.csv.issues.JiraCsv206Test.class
+org.apache.commons.csv.CSVRecordTest.class
+org.apache.commons.csv.CSVFormatPredefinedTest.class
+org.apache.commons.csv.issues.JiraCsv211Test.class
+org.apache.commons.csv.issues.JiraCsv288Test.class
+org.apache.commons.csv.CSVPrinterTest.class
+org.apache.commons.csv.issues.JiraCsv198Test.class
+org.apache.commons.csv.issues.JiraCsv247Test.class
+org.apache.commons.csv.CSVFormatTest.class
+org.apache.commons.csv.issues.JiraCsv253Test.class
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv149Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file created
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv149TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@7114989d is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@7114989d is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@28222310 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@563b0ebe is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@919a4d6 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@1ad799ff is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@22b94fbb is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@3499d6cd is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@52335027 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@853da01 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@44f58c5a is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@44f58c5a is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@180ba195 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@e2fdc6f is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@2e7bccf4 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@745e7550 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@29d56f8d is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@29d56f8d is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 24232 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.165 s
+[INFO] Finished at: 2022-06-20T12:13:12+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  12.116 minutes
+progress: 1/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv249Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv249TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@4f2757a3 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@4f2757a3 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@4bc7ed49 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@589889ea is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@217957c2 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@34982579 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@7700dbc7 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@5a466702 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@5e480991 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@150661cd is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@11f0561c is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@11f0561c is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@40d1594e is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@579f1a30 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@215dbd77 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@689d810 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@2e8834ab is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@2e8834ab is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 25443 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 9
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.159 s
+[INFO] Finished at: 2022-06-20T12:13:57+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  12.29745 minutes
+progress: 2/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv265Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv265TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@256195c6 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@256195c6 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@478545f1 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@74011615 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1868ffba is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@5743dc86 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@70ae7605 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@8add2f5 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@64346b3c is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@2b77c4a7 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3b30e9b3 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3b30e9b3 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@2349b49d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@12c35c14 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@571574f9 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@182307d8 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@37b36a4a is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@37b36a4a is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23575 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.981 s
+[INFO] Finished at: 2022-06-20T12:14:40+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  11.001666666666667 minutes
+progress: 3/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.perf.PerformanceTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/perf/PerformanceTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@650e83cf is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@650e83cf is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@77f93273 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@5a36c562 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@79415535 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.instance.PrimitiveIVMO@4a79def8 is applicable for class com.mutation.instance.PrimitiveIVMO for 1 test(s)
+
+nullMutant__PrimitiveIVMO__6
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@689c32b is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__7
+com.mutation.unorderedCollections.iteration.SetIUCMO@2b3f7852 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__8
+com.mutation.asyncWait.LatchObjectMO@3f9b961b is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__9
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@1158baac is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__10
+com.mutation.filepermission.FileOutputStreamFSFMO@78da6d09 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__11
+com.mutation.resourceNotCreated.newFileNullMO@53f1d1e7 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__12
+com.mutation.resourceNotCreated.newFileNullMO@53f1d1e7 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__13
+com.mutation.reflection.UnorderedPopulationMutationOperator@7e6ca814 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__14
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@584b389 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__15
+com.mutation.database.DatabaseMutationOperator@432894a8 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__16
+com.mutation.framework.MockitoMutationOperator@4bec56dc is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__17
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@5ca3b826 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__18
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@5ca3b826 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__19
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 25552 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 11
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:26 min
+[INFO] Finished at: 2022-06-20T12:16:08+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  11.4984 minutes
+progress: 4/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.TokenMatchersTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/TokenMatchersTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@3a1d1ba is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@3a1d1ba is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@4efaba29 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.instance.CustomClassIVMO@31cd13ea is applicable for class com.mutation.instance.CustomClassIVMO for 1 test(s)
+
+nullMutant__CustomClassIVMO__4
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@63cab567 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__5
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@755ace14 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__6
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@bfc92da is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__7
+com.mutation.unorderedCollections.iteration.SetIUCMO@67ceb2bf is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__8
+com.mutation.asyncWait.LatchObjectMO@7f866622 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__9
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@20ed3e09 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__10
+com.mutation.filepermission.FileOutputStreamFSFMO@1f35cd2f is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__11
+com.mutation.resourceNotCreated.newFileNullMO@1e497b57 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__12
+com.mutation.resourceNotCreated.newFileNullMO@1e497b57 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__13
+com.mutation.reflection.UnorderedPopulationMutationOperator@3fccba75 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__14
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@14a483d1 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__15
+com.mutation.database.DatabaseMutationOperator@1148205c is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__16
+com.mutation.framework.MockitoMutationOperator@64f2395a is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__17
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@248348c3 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__18
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@248348c3 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__19
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 22510 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.012 s
+[INFO] Finished at: 2022-06-20T12:16:50+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  9.754333333333333 minutes
+progress: 5/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.CSVParserTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVParserTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVParserTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@17d56f8c is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@17d56f8c is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@2d899dcf is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@493f3480 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@31507c8b is applicable for test void testHeadersWithNullColumnName() for 1 test(s)
+testHeadersWithNullColumnNameMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@31507c8b is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__6
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@57c4fd4e is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__7
+com.mutation.unorderedCollections.iteration.SetIUCMO@9b581b3 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__8
+com.mutation.asyncWait.LatchObjectMO@5b6d11d6 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__9
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@425dbe97 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__10
+com.mutation.filepermission.FileOutputStreamFSFMO@650dd226 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__11
+com.mutation.resourceNotCreated.newFileNullMO@2788547b is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__12
+com.mutation.resourceNotCreated.newFileNullMO@2788547b is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__13
+com.mutation.reflection.UnorderedPopulationMutationOperator@765ed24d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__14
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@172d1296 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__15
+com.mutation.database.DatabaseMutationOperator@3a3c809d is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__16
+com.mutation.framework.MockitoMutationOperator@4a7c5a10 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__17
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@7c4e0ecb is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__18
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@7c4e0ecb is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__19
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 39945 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:00 min
+[INFO] Finished at: 2022-06-20T12:17:53+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  16.64375 minutes
+progress: 6/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.PerformanceTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/PerformanceTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@21960cd9 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@21960cd9 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@2043edbf is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@3ab2d024 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@5f852f58 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@5588d2a9 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@78e4f0ee is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@1ddd0bd9 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@2f49dd7c is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@34f9241a is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@4c73f49c is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@4c73f49c is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@6987a20 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@777b9f9a is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@4a51d18a is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@28481a54 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@38ce970e is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@38ce970e is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 29120 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 8
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  47.563 s
+[INFO] Finished at: 2022-06-20T12:18:42+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  11.648 minutes
+progress: 7/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv154Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv154TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@4b1c9003 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@4b1c9003 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@9511944 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@68f3093f is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@7f9dee7e is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@6c8405d6 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@5d9fa48e is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@63bfb4bb is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@7857a043 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@31e3c75d is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@4aee2257 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@4aee2257 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@22f1bc1a is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@25068861 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@7416e27a is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@6760227 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@3534b8f7 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@3534b8f7 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 24655 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.673 s
+[INFO] Finished at: 2022-06-20T12:19:26+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  9.451083333333333 minutes
+progress: 8/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.ExtendedBufferedReaderTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/ExtendedBufferedReaderTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@65847083 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@65847083 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@2bf4b465 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@89e2b6 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@66251848 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@1158e5dc is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@38f888fc is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@1adac97 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@aa1b22f is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@6043336c is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@76a346bc is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@76a346bc is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@4d362da1 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@682793b4 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@65b7c69 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@27d5786 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@3e3214fb is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@3e3214fb is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 24655 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 8
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.748 s
+[INFO] Finished at: 2022-06-20T12:20:11+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  9.040166666666666 minutes
+progress: 9/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv248Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv248TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@bd03764 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@bd03764 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@159863fe is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@43179087 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@5a3ef85b is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@36f58cb8 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@2839a9af is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@6824bd7c is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@63f053c is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@252bcc01 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@6b73eab1 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@6b73eab1 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@785a697d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@33061e5d is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@4cc963b4 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@3c6125f6 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@27c2a9a7 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@27c2a9a7 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23843 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.847 s
+[INFO] Finished at: 2022-06-20T12:20:55+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  8.34505 minutes
+progress: 10/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv271Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv271TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@e971353 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@e971353 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@55ce6d6b is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@4adeae34 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@21e2b657 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@413132d9 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@214af50d is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@46d25853 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@401c92b3 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@7dc93ecd is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@5649d11b is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@5649d11b is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@6dae215d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@1e533e7e is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@7ec908eb is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@1af0e6f4 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@34a5c316 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@34a5c316 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23868 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 10
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.193 s
+[INFO] Finished at: 2022-06-20T12:21:39+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  7.956 minutes
+progress: 11/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv203Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv203TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@4e896111 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@4e896111 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@27a768c7 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@67a299bc is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@3a024a62 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@3285dac is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@f2ad303 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@3f25c817 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@3df41b5c is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@1c758682 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@6c8a71b8 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@6c8a71b8 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@2b787412 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@429d5a42 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@5ec1d5d3 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@2585e789 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@21beb41e is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@21beb41e is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 24074 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.034 s
+[INFO] Finished at: 2022-06-20T12:22:23+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  7.623433333333334 minutes
+progress: 12/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.CSVFileParserTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVFileParserTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVFileParserTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@27f73fb6 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@27f73fb6 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@77fc6374 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@4f3b1837 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@494a3f10 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@9f2cd7f is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@b5cd475 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@78ba9363 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@67d8ba14 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@4617314c is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3016a260 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3016a260 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@1fc00d6c is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@6219fc03 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@1d3135b is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@61d4c284 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@7154f6d5 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@7154f6d5 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 26608 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 8
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  45.149 s
+[INFO] Finished at: 2022-06-20T12:23:10+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  7.9824 minutes
+progress: 13/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv264Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv264TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@2aca6c60 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@2aca6c60 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@57d38bbe is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@48feab28 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@3ced599d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@beba10c is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@396d1a95 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@2eb74ca7 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@39c2caac is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@9c17987 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@70620d0f is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@70620d0f is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@49700603 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@51c98c87 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@78004b3c is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@3e9970b9 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@52b72637 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@52b72637 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23579 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.352 s
+[INFO] Finished at: 2022-06-20T12:23:54+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  6.680716666666667 minutes
+progress: 14/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv213Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv213TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@4fb7f5ea is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@4fb7f5ea is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@2ea4a72a is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@239ccb4 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@56e63fd3 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@5f5c6369 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@1f1dd083 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@47e373d6 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@5d1963bc is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@35cf26f is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@64891945 is applicable for test void test() for 1 test(s)
+testMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@64891945 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__12
+com.mutation.resourceNotCreated.newFileNullMO@64891945 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__13
+com.mutation.reflection.UnorderedPopulationMutationOperator@145a4bc1 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__14
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@16fab146 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__15
+com.mutation.database.DatabaseMutationOperator@12f20909 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__16
+com.mutation.framework.MockitoMutationOperator@206f53d6 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__17
+src/test/resources/CSV-213/999751170.patch.csv
+com.mutation.resourceNotCreated.newFileNullODMO@4e978d18 is applicable for test void test() for 0 test(s)
+testMutant__newFileNullODMO__18
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@4e978d18 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__19
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@4e978d18 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__20
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 25424 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 13
+Errors: 16
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.715 s
+[INFO] Finished at: 2022-06-20T12:24:38+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  6.779733333333334 minutes
+progress: 15/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.LexerTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/LexerTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/LexerTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@2c0c6255 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@2c0c6255 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@5e912b02 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.instance.CustomClassIVMO@a145c7d is applicable for class com.mutation.instance.CustomClassIVMO for 1 test(s)
+
+nullMutant__CustomClassIVMO__4
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@16616ed8 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__5
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@4167fdd6 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__6
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@13b9b4a9 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__7
+com.mutation.unorderedCollections.iteration.SetIUCMO@45909f79 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__8
+com.mutation.asyncWait.LatchObjectMO@585c899a is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__9
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@7db6b872 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__10
+com.mutation.filepermission.FileOutputStreamFSFMO@1ab6edaa is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__11
+com.mutation.resourceNotCreated.newFileNullMO@6997a282 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__12
+com.mutation.resourceNotCreated.newFileNullMO@6997a282 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__13
+com.mutation.reflection.UnorderedPopulationMutationOperator@6dbcfcb2 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__14
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@1ba6aa2f is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__15
+com.mutation.database.DatabaseMutationOperator@63a61cac is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__16
+com.mutation.framework.MockitoMutationOperator@5789f9b6 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__17
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@564a77e9 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__18
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@564a77e9 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__19
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 29537 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 8
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  48.311 s
+[INFO] Finished at: 2022-06-20T12:25:29+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  7.38425 minutes
+progress: 16/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv93Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv93TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@5de5d5ea is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@5de5d5ea is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@683a9daf is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@cb56615 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@3a258106 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@5470af70 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@257a336f is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@5be3a07 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@4241a3d6 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@322dad53 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3363e4d9 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3363e4d9 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@4f5c517e is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@72556033 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@38eb5619 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@7796c4db is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@695e5e5a is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@695e5e5a is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23847 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 9
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.491 s
+[INFO] Finished at: 2022-06-20T12:26:12+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  5.5643 minutes
+progress: 17/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv263Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv263TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@4b9487a3 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@4b9487a3 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@2e9c97bd is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@2598b69b is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@4fbe4dff is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@2c8aed51 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@3b09879d is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@44389821 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@1684de80 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@3d8014e3 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@24eed06f is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@24eed06f is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@7b407a6f is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@6b0213ea is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@a2a0fd8 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@66d84a7b is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@387f96af is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@387f96af is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 22260 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  39.271 s
+[INFO] Finished at: 2022-06-20T12:26:53+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  4.823 minutes
+progress: 18/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv148Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv148TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@2929b9d9 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@2929b9d9 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@5fda5298 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@579f73c2 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@cdbb240 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@3b62d79f is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@672fdd12 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@186d5452 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@55cb6a1a is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@59973beb is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@47acb5e7 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@47acb5e7 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@485692d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@4fb2a831 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@31457832 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@36d86f98 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@4b29f3d1 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@4b29f3d1 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 22270 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.124 s
+[INFO] Finished at: 2022-06-20T12:27:36+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  4.454 minutes
+progress: 19/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv167Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv167TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@79c99dd2 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@79c99dd2 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@5ffb6e74 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@48478e9c is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@7a111ada is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@50817319 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@1f3e74e7 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@6ae318d9 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@3a51b6d9 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@7a2be4c0 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3ed286cf is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3ed286cf is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@bc21994 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@4af864fc is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@263162fc is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@2f061630 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@2f8cc8ce is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@2f8cc8ce is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23218 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.089 s
+[INFO] Finished at: 2022-06-20T12:28:20+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  4.256633333333333 minutes
+progress: 20/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv206Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv206TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@581883c2 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@581883c2 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@7e15063a is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@7f14a0c2 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@4238ce20 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@b36c520 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@34643282 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@208a6dd3 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@26b1b770 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@445b87b5 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@299f4148 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@299f4148 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@65e01b28 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@68b3ebee is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@7b28c6cc is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@50916760 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@716a26c0 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@716a26c0 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23168 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 9
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.738 s
+[INFO] Finished at: 2022-06-20T12:29:03+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  3.8613333333333335 minutes
+progress: 21/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.CSVRecordTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVRecordTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@7b870367 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@7b870367 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@6fb7daed is applicable for test void testGetStringInconsistentRecord() for 2 test(s)
+testGetStringInconsistentRecordMutant__MapIUCMO__3
+com.mutation.unorderedCollections.iteration.MapIUCMO@6fb7daed is applicable for test void testPutInMap() for 2 test(s)
+pseudohash has already been added
+testPutInMapMutant__MapIUCMO__4
+com.mutation.unorderedCollections.iteration.MapIUCMO@6fb7daed is applicable for test void UPMO_test() for 2 test(s)
+pseudohash has already been added
+UPMO_testMutant__MapIUCMO__5
+com.mutation.instance.MapIVMO@459fb173 is applicable for class com.mutation.instance.MapIVMO for 1 test(s)
+
+com.mutation.instance.CustomClassIVMO@760735cc is applicable for class com.mutation.instance.CustomClassIVMO for 1 test(s)
+
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@644a2215 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1ff0a7b8 is applicable for test void testGetStringInconsistentRecord() for 1 test(s)
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1ff0a7b8 is applicable for test void testIsConsistent() for 1 test(s)
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1ff0a7b8 is applicable for test void testPutInMap() for 1 test(s)
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1ff0a7b8 is applicable for test void testToMap() for 1 test(s)
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1ff0a7b8 is applicable for test void UPMO_test() for 1 test(s)
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@5e88a53b is applicable for test void testString() for 1 test(s)
+com.mutation.unorderedCollections.iteration.SetIUCMO@229b3d66 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+com.mutation.asyncWait.LatchObjectMO@7f98f938 is applicable for test void AWMO_test() for 0 test(s)
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@6cddd6b1 is applicable for test void cacheTest() for 1 test(s)
+com.mutation.filepermission.FileOutputStreamFSFMO@551b96d8 is applicable for test void testFile() for 1 test(s)
+com.mutation.resourceNotCreated.newFileNullMO@7c7aebb1 is applicable for test void fileTest() for 1 test(s)
+com.mutation.resourceNotCreated.newFileNullMO@7c7aebb1 is applicable for test void testFile() for 1 test(s)
+com.mutation.reflection.UnorderedPopulationMutationOperator@34a5754b is applicable for test void UPMO_test() for 1 test(s)
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@496eedf3 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+com.mutation.database.DatabaseMutationOperator@430c487c is applicable for test void testDB() for 1 test(s)
+com.mutation.framework.MockitoMutationOperator@54bcbf81 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@1bb29da6 is applicable for test void fileTest() for 0 test(s)
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@1bb29da6 is applicable for test void testFile() for 0 test(s)
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 26973 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 0
+Errors: 1
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.563 s
+[INFO] Finished at: 2022-06-20T12:29:49+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  4.04595 minutes
+progress: 22/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.CSVFormatPredefinedTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVFormatPredefinedTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@4524e823 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@4524e823 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@7efc2d56 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@679ca19b is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@6b91c43e is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@395f3797 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@3cbcdbef is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@28b26c8 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@43f4170d is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@4f845655 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@6e8445df is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@6e8445df is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@69ba9931 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@27a97e41 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@f1782aa is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@7e1a626d is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@4b3df49b is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@4b3df49b is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23445 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 9
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.241 s
+[INFO] Finished at: 2022-06-20T12:30:32+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  3.126 minutes
+progress: 23/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv211Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+/Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv211TestMutant.java:78: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        final String formatted = printFormat.format(values);
+                                                    ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv211TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+com.mutation.unorderedCollections.index.SetUCIMO@2a7ee543 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@2a7ee543 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@11296111 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@4efb2cd6 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@49443f60 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@530ef13b is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@583cbf63 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@533bf1f2 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@5432ace1 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@389d8166 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@6643cb50 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@6643cb50 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@3eee3d3f is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@27eae0c is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@699cf3e6 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@56cad25 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@31a4f1de is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@31a4f1de is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 22938 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.141 s
+[INFO] Finished at: 2022-06-20T12:31:17+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  2.6761 minutes
+progress: 24/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv288Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv288TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@290a7353 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@290a7353 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@713ef7f1 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@2313d344 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@3425ef62 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@67272817 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@2e656098 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@2b2e6271 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@7371f323 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@75edc15b is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@fff8cbb is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@fff8cbb is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@4f33720b is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@e7a023b is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@1cd7fb20 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@63bc021f is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@7c5aeed9 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@7c5aeed9 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 26029 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 14
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.368 s
+[INFO] Finished at: 2022-06-20T12:32:04+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  2.6029 minutes
+progress: 25/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.CSVPrinterTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@3429d410 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@3429d410 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@37f8fad6 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@22bb8ab8 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@73b1879f is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@96720e0 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@1b6f44f2 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@7360e791 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@54d2315a is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@7855c553 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3f0add1 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3f0add1 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@3e30904a is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@45b84071 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@c629516 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@5b172fee is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@3429d410 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@3429d410 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@37f8fad6 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@22bb8ab8 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@73b1879f is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@96720e0 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@1b6f44f2 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@7360e791 is applicable for test void AWMO_test() for 1 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@54d2315a is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@7855c553 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3f0add1 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3f0add1 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@3e30904a is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@45b84071 is applicable for test void timeZoneDependencyTest() for 3 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@c629516 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@5b172fee is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVPrinterTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@3429d410 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@3429d410 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@37f8fad6 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@22bb8ab8 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@73b1879f is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@96720e0 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@1b6f44f2 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@7360e791 is applicable for test void AWMO_test() for 1 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@54d2315a is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@7855c553 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@3f0add1 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@3f0add1 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@3e30904a is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@45b84071 is applicable for test void timeZoneDependencyTest() for 3 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@c629516 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@5b172fee is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+config file already exists.
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:54 min
+[INFO] Finished at: 2022-06-20T12:34:00+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.lang.RuntimeException: Attempt to create SootFieldRef with null class
+	at soot.AbstractSootFieldRef.<init>(AbstractSootFieldRef.java:47)
+	at soot.Scene.makeFieldRef(Scene.java:1956)
+	at soot.SootField.makeRef(SootField.java:256)
+	at com.mutation.framework.MockitoMutationOperator.initializeMock(MockitoMutationOperator.java:72)
+	at com.mutation.framework.MockitoMutationOperator.createCleanerTest(MockitoMutationOperator.java:129)
+	at com.mutation.framework.MockitoMutationOperator.createCleanserTests(MockitoMutationOperator.java:159)
+	at com.mutation.framework.MockitoMutationOperator.mutateMethod(MockitoMutationOperator.java:188)
+	at com.framework.OperatorSelector.mutate(OperatorSelector.java:276)
+	at com.framework.OperatorSelector.mutateInjector(OperatorSelector.java:297)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:516)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:321)
+	at com.framework.App.main(App.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:293)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.RuntimeException: Attempt to create SootFieldRef with null class
+	at soot.AbstractSootFieldRef.<init>(AbstractSootFieldRef.java:47)
+	at soot.Scene.makeFieldRef(Scene.java:1956)
+	at soot.SootField.makeRef(SootField.java:256)
+	at com.mutation.framework.MockitoMutationOperator.initializeMock(MockitoMutationOperator.java:72)
+	at com.mutation.framework.MockitoMutationOperator.createCleanerTest(MockitoMutationOperator.java:129)
+	at com.mutation.framework.MockitoMutationOperator.createCleanserTests(MockitoMutationOperator.java:159)
+	at com.mutation.framework.MockitoMutationOperator.mutateMethod(MockitoMutationOperator.java:188)
+	at com.framework.OperatorSelector.mutate(OperatorSelector.java:276)
+	at com.framework.OperatorSelector.mutateInjector(OperatorSelector.java:297)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:516)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:529)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:321)
+	at com.framework.App.main(App.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:293)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.RuntimeException: Attempt to create SootFieldRef with null class
+	at soot.AbstractSootFieldRef.<init>(AbstractSootFieldRef.java:47)
+	at soot.Scene.makeFieldRef(Scene.java:1956)
+	at soot.SootField.makeRef(SootField.java:256)
+	at com.mutation.framework.MockitoMutationOperator.initializeMock(MockitoMutationOperator.java:72)
+	at com.mutation.framework.MockitoMutationOperator.createCleanerTest(MockitoMutationOperator.java:129)
+	at com.mutation.framework.MockitoMutationOperator.createCleanserTests(MockitoMutationOperator.java:159)
+	at com.mutation.framework.MockitoMutationOperator.mutateMethod(MockitoMutationOperator.java:188)
+	at com.framework.OperatorSelector.mutate(OperatorSelector.java:276)
+	at com.framework.OperatorSelector.mutateInjector(OperatorSelector.java:297)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:516)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:529)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:529)
+	at com.framework.OperatorSelector.start(OperatorSelector.java:321)
+	at com.framework.App.main(App.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:293)
+	at java.lang.Thread.run(Thread.java:748)
+
+approximate time for finishing experiment for this project:  0.0 minutes
+progress: 26/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv198Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv198TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@26f8e243 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@26f8e243 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@20c788e8 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@45183462 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@4c67a11d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@6f3cd156 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@23b3e259 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@1d8d638f is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@6717c304 is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@24e88a22 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@1d211bb5 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@1d211bb5 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@f132f59 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@7bc0d41c is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@3232c9a9 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@1c3e6c39 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@18d4ae0e is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@18d4ae0e is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23681 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 6
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.227 s
+[INFO] Finished at: 2022-06-20T12:34:44+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  1.5787333333333333 minutes
+progress: 27/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv247Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv247TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@72799c20 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@72799c20 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@161416d8 is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@382658c2 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@5462bda5 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@2fe977c8 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@401f5149 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@6f1a6bfe is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@1a4ce43f is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@590363c2 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@22bc0559 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@22bc0559 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@6a3a88d3 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@53565309 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@43f9ffd5 is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@24b873c1 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@26677027 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@26677027 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 24984 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.193 s
+[INFO] Finished at: 2022-06-20T12:35:29+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  1.2492 minutes
+progress: 28/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.CSVFormatTest  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVFormatTestMutant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/CSVFormatTestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@216bfa16 is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@216bfa16 is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@216984aa is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@4a05bcff is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@6330767a is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@2a39a823 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@7ba85377 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@6a002402 is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@6b76bd5a is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@3b05cf86 is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@1cda6c56 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@1cda6c56 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@30b9a96b is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@4bc83987 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@2bec127c is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@1240c693 is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@222039e1 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@222039e1 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 32857 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  53.433 s
+[INFO] Finished at: 2022-06-20T12:36:25+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  1.0952333333333333 minutes
+progress: 29/30
+executed command: mvn exec:java -Dexec.mainClass=com.framework.App  -Dexec.args=" -dir /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -name org.apache.commons.csv.issues.JiraCsv253Test  -o /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classes -t 0.5"
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:demo:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 137, column 19
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-compiler-plugin @ line 145, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building demo 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:1.4.0:java (default-cli) @ demo ---
+config file already exists.
+Note: /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/src/test/java/org/apache/commons/csv/issues/JiraCsv253TestMutant.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+com.mutation.unorderedCollections.index.SetUCIMO@24ee503a is applicable for test void testString() for 1 test(s)
+already contained local
+testStringMutant__SetUCIMO__1
+com.mutation.unorderedCollections.index.SetUCIMO@24ee503a is applicable for test void testDB() for 1 test(s)
+already contained local
+testDBMutant__SetUCIMO__2
+com.mutation.unorderedCollections.iteration.MapIUCMO@15c536d is applicable for test void UPMO_test() for 2 test(s)
+UPMO_testMutant__MapIUCMO__3
+com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator@391db3f0 is applicable for class com.mutation.initializationOfTimeValuesTwice.TimeValueInitializationMutationOperator for 1 test(s)
+nullMutant__TimeValueInitializationMutationOperator__4
+com.mutation.unorderedCollections.assertionInsert.HashMapUAMO@1ff8ae5d is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__HashMapUAMO__5
+com.mutation.unorderedCollections.assertionInsert.HashSetUAMO@2810ae24 is applicable for test void testString() for 1 test(s)
+testStringMutant__HashSetUAMO__6
+com.mutation.unorderedCollections.iteration.SetIUCMO@2f0bd406 is applicable for test void testString() for 2 test(s)
+pseudohash has already been added
+testStringMutant__SetIUCMO__7
+com.mutation.asyncWait.LatchObjectMO@240eae9c is applicable for test void AWMO_test() for 0 test(s)
+AWMO_testMutant__LatchObjectMO__8
+com.mutation.cachedDataIsNotTearedDown.CaffeineCDMO@2cec7eea is applicable for test void cacheTest() for 1 test(s)
+cacheTestMutant__CaffeineCDMO__9
+com.mutation.filepermission.FileOutputStreamFSFMO@1a1960ee is applicable for test void testFile() for 1 test(s)
+testFileMutant__FileOutputStreamFSFMO__10
+com.mutation.resourceNotCreated.newFileNullMO@17fabc70 is applicable for test void fileTest() for 1 test(s)
+fileTestMutant__newFileNullMO__11
+com.mutation.resourceNotCreated.newFileNullMO@17fabc70 is applicable for test void testFile() for 1 test(s)
+testFileMutant__newFileNullMO__12
+com.mutation.reflection.UnorderedPopulationMutationOperator@3917b1c8 is applicable for test void UPMO_test() for 1 test(s)
+UPMO_testMutant__UnorderedPopulationMutationOperator__13
+com.mutation.timeZoneDependency.TimeZoneDependencyMO@77917435 is applicable for test void timeZoneDependencyTest() for 0 test(s)
+timeZoneDependencyTestMutant__TimeZoneDependencyMO__14
+com.mutation.database.DatabaseMutationOperator@33e5ddba is applicable for test void testDB() for 1 test(s)
+testDBMutant__DatabaseMutationOperator__15
+com.mutation.framework.MockitoMutationOperator@1cca27eb is applicable for class com.mutation.framework.MockitoMutationOperator for 1 test(s)
+nullMutant__MockitoMutationOperator__16
+test.txt
+com.mutation.resourceNotCreated.newFileNullODMO@5e4938f3 is applicable for test void fileTest() for 0 test(s)
+fileTestMutant__newFileNullODMO__17
+./myfile.txt
+com.mutation.resourceNotCreated.newFileNullODMO@5e4938f3 is applicable for test void testFile() for 0 test(s)
+testFileMutant__newFileNullODMO__18
+for /Users/alperenyildiz/Desktop/flaky/subjects/prepped/commons-csv/target/test-classesExecution took: 23591 miliseconds
+waiting for the subprocess to finish
+waiting for the subprocess to finish
+Mutation Results: 
+Failures: 7
+Errors: 13
+Mutant number: 0
+config file already exists.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.611 s
+[INFO] Finished at: 2022-06-20T12:37:09+03:00
+[INFO] ------------------------------------------------------------------------
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+approximate time for finishing experiment for this project:  0.39318333333333333 minutes
+progress: 30/30
+0 mutants created
+428 mutants killed
+762 mutants resulted in error
+-428 mutants survived
+49058.73333333334 miliseconds / test suite
