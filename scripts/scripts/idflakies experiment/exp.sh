@@ -1,6 +1,6 @@
 current=$(date "+%Y-%m-%d %H:%M:%S")  
 timeStamp=$(date -d "$current" +%s)
-currentTimeStamp=$((timeStamp*1000+`date "+%N"`/1000000)) 
+currentTimeStamp=$((timeStamp*1000+$(date "+%N")/1000000)) 
 
 mkdir -p logs
 exec 3>&1 4>&2
